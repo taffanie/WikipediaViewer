@@ -1,0 +1,48 @@
+.words{
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center; /*centers items on the line (the x-axis by default)*/
+  align-items: center; /*centers items on the cross-axis (y by default)*/
+  font-family: 'Quicksand', sans-serif;
+}
+
+#button{
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center; /*centers items on the line (the x-axis by default)*/
+  align-items: center; /*centers items on the cross-axis (y by default)*/
+  font-family: 'Quicksand', sans-serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 20%;
+}
+
+body{
+  background-color: white;
+  color: black;
+  font-weight: bold; 
+}
+
+#search{
+  text-align: center;
+}
+
+
+a{
+  color: grey;
+}
+
+h2{
+  font-size: 30px;
+}
