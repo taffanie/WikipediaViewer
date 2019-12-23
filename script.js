@@ -24,7 +24,7 @@ $(function(){
         $('#results').html('');
         
         for(let i=0; i<data[1].length; i++){
-          $('#results').append('<a href=' + data[3][i] + 'target="blank">' + data[1][i] + '</a>' + '<br>')
+          $('#results').append('<a href=' + data[3][i] + ' target="_blank"> ' + data[1][i] + '</a>' + '<br>')
         
           
           
